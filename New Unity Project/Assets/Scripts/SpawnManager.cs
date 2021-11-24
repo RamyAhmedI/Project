@@ -6,12 +6,8 @@ public class SpawnManager : MonoBehaviour
 {
     public GameObject[] virusPrefabs;
 
-    private float spawnLimitXLeft = -22;
-    private float spawnLimitXRight = 7;
-    private float spawnPosY = -2;
-
-    private float startDelay = 1.0f;
-    private float spawnInterval = 1.2f;
+    private float startDelay = 2.0f;
+    private float spawnInterval = 2.0f;
 
     // Start is called before the first frame update
     void Start()
