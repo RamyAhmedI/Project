@@ -321,6 +321,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1077356410}
   - component: {fileID: 1077356409}
+  - component: {fileID: 1716703829618931374}
   m_Layer: 0
   m_Name: Polyart_Golem
   m_TagString: Untagged
@@ -363,6 +364,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1716703829618931374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077356408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4061e86ba8210648908b3ca10027c7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1099011281
 GameObject:
   m_ObjectHideFlags: 0
