@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=1920 height=1080></canvas>
+      <canvas id="unity-canvas" width=700 height=700></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -27,11 +27,11 @@
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/build.loader.js";
+      var loaderUrl = buildUrl + "/game.loader.js";
       var config = {
-        dataUrl: buildUrl + "/build.data.br",
-        frameworkUrl: buildUrl + "/build.framework.js.br",
-        codeUrl: buildUrl + "/build.wasm.br",
+        dataUrl: buildUrl + "/game.data",
+        frameworkUrl: buildUrl + "/game.framework.js",
+        codeUrl: buildUrl + "/game.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Ram And Eas",
         productName: "Covid Quest",
@@ -62,8 +62,8 @@
           mobileWarning.style.display = "none";
         }, 5000);
       } else {
-        canvas.style.width = "1920px";
-        canvas.style.height = "1080px";
+        canvas.style.width = "700px";
+        canvas.style.height = "700px";
       }
       loadingBar.style.display = "block";
 
